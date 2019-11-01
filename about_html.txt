@@ -1,0 +1,6 @@
+{% extends 'base.html'%}
+{% block content %}
+<h1>Welcome to the about page</h1>
+<input type="button" name="button" value="Click" onClick="ask_for_data()"/>
+<div id="demo"></div>
+{% endblock %}
